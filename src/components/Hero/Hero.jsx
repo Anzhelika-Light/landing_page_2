@@ -14,11 +14,7 @@ const Hero = ({ title, text }) => {
         </div>
       </div>
       {/* <span className={styles.bgImg}></span> */}
-      <img
-        className={styles.img}
-        src="../../img/designer_1.svg"
-        alt="Hero_img"
-      />
+      <img className={styles.img} src="../../img/1.jpg" alt="Hero_img" />
     </div>
   );
 };
