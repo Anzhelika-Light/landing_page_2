@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero";
 import AboutSection from "./components/AboutSection/AboutSection";
 import AdvantagesSection from "./components/AdvantagesSection/AdvantagesSection";
 import PricingSection from "./components/PricingSection/PricingSection";
+import Footer from "./components/Footer/Footer";
 
 import "./App.css";
 
@@ -17,7 +18,7 @@ function App() {
       <Hero
         title="Introduce Your Product Quickly & Effectively"
         text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
-mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+        mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
       />
       <AboutSection
         title="Light, Fast & Powerful"
@@ -27,6 +28,7 @@ mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla 
       />
       <AdvantagesSection items={AdvantagesData} />
       <PricingSection items={PricingData} />
+      <Footer />
     </div>
   );
 }

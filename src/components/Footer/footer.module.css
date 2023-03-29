@@ -1,0 +1,32 @@
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 139px;
+  border-bottom: 1px solid #cdd1d4;
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 76px;
+}
+
+.copyright {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: #939ea4;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.46;
+
+  color: #37447e;
+}
