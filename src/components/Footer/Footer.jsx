@@ -9,15 +9,19 @@ import SocialNetworksIcons from "../../data/social-networks.json";
 
 const Footer = () => {
   return (
-    <div className="container">
+    <div className="container container--footer">
       <div className={styles.footerTop}>
         <p className={styles.copyright}>©2020 Yourcompany</p>
         <p className={styles.logo}>Landie</p>
         <Button text="Purchase now" />
       </div>
       <div className={styles.footerBottom}>
-        <MainMenu items={MenuItems} />
-        <SocialNetworks items={SocialNetworksIcons} />
+        <div>
+          <MainMenu items={MenuItems} />
+        </div>
+        <div>
+          <SocialNetworks items={SocialNetworksIcons} />
+        </div>
       </div>
     </div>
   );

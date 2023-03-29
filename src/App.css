@@ -30,6 +30,10 @@ li {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 .App {
   text-align: center;
 }

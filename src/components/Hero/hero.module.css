@@ -5,7 +5,6 @@
 }
 
 .title {
-  margin-top: 322px;
   margin-bottom: 20px;
 
   text-align: left;
@@ -26,6 +25,22 @@
   line-height: 1.67;
 
   color: #505f98;
+}
+
+/* .imgWrapper {
+  position: relative;
+} */
+
+.img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -10;
+
+  left: 28.98%;
+  right: -32.45%;
+  top: 1.08%;
+  bottom: 75.97%;
 }
 
 /* .bgImg {

@@ -2,9 +2,11 @@ import Button from "../Button/Button";
 
 import styles from "./hero.module.css";
 
+import heroImg from "../../img/hero.jpg";
+
 const Hero = ({ title, text }) => {
   return (
-    <div className="container">
+    <div className="container container--hero">
       <div className={styles.contentWrapper}>
         <h1 className={styles.title}>{title}</h1>
         <p className={styles.text}>{text}</p>
@@ -13,8 +15,9 @@ const Hero = ({ title, text }) => {
           <Button text="Learn More" />
         </div>
       </div>
-      {/* <span className={styles.bgImg}></span> */}
-      <img className={styles.img} src="../../img/1.jpg" alt="Hero_img" />
+      <div className={styles.imgWrapper}>
+        <img className={styles.img} src={heroImg} alt="Hero_img" />
+      </div>
     </div>
   );
 };

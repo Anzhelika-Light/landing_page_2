@@ -4,6 +4,7 @@ import AboutSection from "./components/AboutSection/AboutSection";
 import AdvantagesSection from "./components/AdvantagesSection/AdvantagesSection";
 import PricingSection from "./components/PricingSection/PricingSection";
 import Footer from "./components/Footer/Footer";
+import Section from "./components/Section/Section";
 
 import "./App.css";
 
@@ -28,7 +29,9 @@ function App() {
       />
       <AdvantagesSection items={AdvantagesData} />
       <PricingSection items={PricingData} />
-      <Footer />
+      <Section>
+        <Footer />
+      </Section>
     </div>
   );
 }

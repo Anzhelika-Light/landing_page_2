@@ -8,7 +8,7 @@ const AdvantagesSection = ({ items }) => {
   ));
 
   return (
-    <div className="container">
+    <div className="container container--advantages">
       <ul className={styles.list}>{elements}</ul>
     </div>
   );

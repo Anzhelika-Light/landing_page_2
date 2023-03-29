@@ -2,9 +2,11 @@ import Button from "../Button/Button";
 
 import styles from "./pricing.module.css";
 
+import PricingBg from "../../img/pricing.jpg";
+
 const PricingSection = () => {
   return (
-    <div className="container">
+    <div className="container container--pricing">
       <h2 className={styles.title}>A Price To Suit Everyone</h2>
       <p className={styles.text}>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
@@ -15,6 +17,7 @@ const PricingSection = () => {
       <p className={styles.note1}>UI Design Kit</p>
       <p className={styles.note2}>See, One price. Simple.</p>
       <Button text="Purchase Now" />
+      <img className={styles.img} src={PricingBg} alt="" />
     </div>
   );
 };

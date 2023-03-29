@@ -1,9 +1,11 @@
 .list {
-  list-style: none;
-
   display: flex;
 }
 
 .item:not(:last-child) {
   margin-right: 30px;
+}
+
+.icon {
+  color: #b0b8bc;
 }

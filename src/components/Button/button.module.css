@@ -18,3 +18,8 @@
   background: #111b47;
   color: #ffffff;
 }
+
+.btn.btn--header {
+  margin-top: 18px;
+  margin-bottom: 16px;
+}
