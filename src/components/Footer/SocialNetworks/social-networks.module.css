@@ -9,3 +9,8 @@
 .icon {
   color: #b0b8bc;
 }
+
+.icon:hover,
+.icon:focus {
+  color: #37447e;
+}
