@@ -7,13 +7,13 @@ import styles from "./footer.module.css";
 import MenuItems from "../../data/menu.json";
 import SocialNetworksIcons from "../../data/social-networks.json";
 
-const Footer = () => {
+const Footer = ({ className = "" }) => {
   return (
     <div className="container container--footer">
       <div className={styles.footerTop}>
         <p className={styles.copyright}>©2020 Yourcompany</p>
         <p className={styles.logo}>Landie</p>
-        <Button text="Purchase now" />
+        <Button>Purchase now</Button>
       </div>
       <div className={styles.footerBottom}>
         <div>

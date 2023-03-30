@@ -2,7 +2,7 @@ import Button from "../Button/Button";
 
 import styles from "./hero.module.css";
 
-import heroImg from "../../img/hero.jpg";
+import heroImg from "../../assets/img/hero.jpg";
 
 const Hero = ({ title, text }) => {
   return (
@@ -11,8 +11,8 @@ const Hero = ({ title, text }) => {
         <h1 className={styles.title}>{title}</h1>
         <p className={styles.text}>{text}</p>
         <div className={styles.btnWrapper}>
-          <Button text="Purchase UI Kit" />
-          <Button text="Learn More" />
+          <Button className={styles.marg}>Purchase UI Kit</Button>
+          <Button>Learn More</Button>
         </div>
       </div>
       <div className={styles.imgWrapper}>

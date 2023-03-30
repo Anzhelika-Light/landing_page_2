@@ -1,7 +1,7 @@
-import styles from "./section.module.css";
+// import styles from "./section.module.css";
 
-const Section = ({ children }) => {
-  return <section className={styles.section}>{children}</section>;
+const Section = ({ children, className = "" }) => {
+  return <section className={className}>{children}</section>;
 };
 
 export default Section;

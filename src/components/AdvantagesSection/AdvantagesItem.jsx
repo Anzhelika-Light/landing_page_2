@@ -11,7 +11,7 @@ const AdvantagesItem = ({ img, text, title, button }) => {
       <div className={styles.contentWrapper}>
         <h2 className={styles.title}>{title}</h2>
         <p className={styles.text}>{text}</p>
-        {button && <Button text="Purchase Now" />}
+        {button && <Button>Purchase Now</Button>}
       </div>
     </li>
   );

@@ -2,7 +2,7 @@ import AboutItems from "./AboutItems";
 
 import styles from "./about-section.module.css";
 
-import aboutImg from "../../img/about.jpg";
+import aboutImg from "../../assets/img/about.jpg";
 
 const AboutSection = ({ title, text, items }) => {
   const elements = items.map(({ id, ...props }) => (
