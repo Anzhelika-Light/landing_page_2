@@ -22,15 +22,10 @@ function App() {
       </Section>
 
       <Section className={styles.sectionHero}>
-        <Hero
-          items={HeroData}
-          //   title="Introduce Your Product Quickly & Effectively"
-          //   text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-          // mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
-        />
+        <Hero {...HeroData} />
       </Section>
 
-      <Section>
+      <Section className={styles.sectionAbout}>
         <AboutSection
           title="Light, Fast & Powerful"
           text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
@@ -39,11 +34,11 @@ function App() {
         />
       </Section>
 
-      <Section>
+      <Section className={styles.sectionAdvantages}>
         <AdvantagesSection items={AdvantagesData} />
       </Section>
 
-      <Section>
+      <Section className={styles.sectionPricing}>
         <PricingSection items={PricingData} />
       </Section>
 

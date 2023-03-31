@@ -1,4 +1,4 @@
-import Button from "../Button/Button";
+import FixedButton from "../FixedButton/FixedButton";
 
 import styles from "./pricing.module.css";
 
@@ -16,7 +16,7 @@ const PricingSection = () => {
       <p className={styles.price}>$40</p>
       <p className={styles.note1}>UI Design Kit</p>
       <p className={styles.note2}>See, One price. Simple.</p>
-      <Button className={styles.btnPricing}>Purchase Now</Button>
+      <FixedButton className={styles.btnPricing}>Purchase Now</FixedButton>
       <img className={styles.img} src={PricingBg} alt="" />
     </div>
   );

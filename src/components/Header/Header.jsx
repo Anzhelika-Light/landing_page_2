@@ -1,5 +1,5 @@
 import MainMenu from "../MainMenu/MainMenu";
-import Button from "../Button/Button";
+import ResponsiveButton from "../ResponsiveButton/ResponsiveButton";
 
 import "../../styles/common.css";
 import styles from "./header.module.css";
@@ -11,7 +11,7 @@ const Header = () => {
     <div className="container">
       <MainMenu items={MenuItems} />
       <span className={styles.logo}>Landie</span>
-      <Button className={styles.btnHeader}>Buy Now</Button>
+      <ResponsiveButton className={styles.btnHeader}>Buy Now</ResponsiveButton>
     </div>
   );
 };

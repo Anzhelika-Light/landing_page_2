@@ -1,30 +1,20 @@
-import Button from "../Button/Button";
+import FixedButton from "../FixedButton/FixedButton";
 
 import styles from "./hero.module.css";
 
-// import heroImg from "../../assets/img/hero.jpg";
-
-const Hero = ({ items }) => {
-  const elements = items.map(({ title, text }) => (
-    <>
-      <h1 className={styles.title}>{title}</h1>
-      <p className={styles.text}>{text[0]}</p>
-      <p className={styles.text}>{text[1]}</p>
-    </>
-  ));
+const Hero = ({ title, text }) => {
+  const elements = text.map((item) => <p className={styles.text}>{item}</p>);
   return (
     <div className="container container--hero">
       <div className={styles.contentWrapper}>
-        {/* <h1 className={styles.title}>{title}</h1>
-        <p className={styles.text}>{text}</p> */}
+        <h1 className={styles.title}>{title}</h1>
         {elements}
         <div className={styles.btnWrapper}>
-          <Button className={styles.btnHeroFirst}>Purchase UI Kit</Button>
-          <Button className={styles.btnHero}>Learn More</Button>
+          <FixedButton className={styles.btnHeroFirst}>
+            Purchase UI Kit
+          </FixedButton>
+          <FixedButton className={styles.btnHero}>Learn More</FixedButton>
         </div>
-      </div>
-      <div className={styles.imgWrapper}>
-        {/* <img className={styles.img} src={heroImg} alt="Hero_img" /> */}
       </div>
     </div>
   );

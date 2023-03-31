@@ -1,4 +1,4 @@
-import Button from "../Button/Button";
+import ResponsiveButton from "../ResponsiveButton/ResponsiveButton";
 import MainMenu from "../MainMenu/MainMenu";
 import SocialNetworks from "./SocialNetworks/SocialNetworks";
 
@@ -13,7 +13,7 @@ const Footer = ({ className = "" }) => {
       <div className={styles.footerTop}>
         <p className={styles.copyright}>©2020 Yourcompany</p>
         <p className={styles.logo}>Landie</p>
-        <Button>Purchase now</Button>
+        <ResponsiveButton>Purchase now</ResponsiveButton>
       </div>
       <div className={styles.footerBottom}>
         <div>

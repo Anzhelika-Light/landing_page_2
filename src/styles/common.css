@@ -9,25 +9,8 @@
   position: relative;
 }
 
-.container.container--hero {
-  padding-top: 312px;
-  padding-bottom: 353px;
-}
-
-.container.container--about {
-  padding-top: 110px;
-  padding-bottom: 108px;
-}
-
-.container.container--advantages {
-  padding-top: 122px;
-  padding-bottom: 163px;
-}
-
 .container.container--pricing {
   flex-direction: column;
-  padding-top: 238px;
-  padding-bottom: 172px;
 }
 
 .container.container--footer {

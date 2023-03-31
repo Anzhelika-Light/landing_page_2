@@ -1,4 +1,4 @@
-import Button from "../Button/Button";
+import ResponsiveButton from "../ResponsiveButton/ResponsiveButton";
 
 import styles from "./advantages-section.module.css";
 
@@ -11,7 +11,11 @@ const AdvantagesItem = ({ img, text, title, button }) => {
       <div className={styles.contentWrapper}>
         <h2 className={styles.title}>{title}</h2>
         <p className={styles.text}>{text}</p>
-        {button && <Button className={styles.btnAdv}>Purchase Now</Button>}
+        {button && (
+          <ResponsiveButton className={styles.btnAdv}>
+            Purchase Now
+          </ResponsiveButton>
+        )}
       </div>
     </li>
   );
