@@ -1,29 +1,34 @@
 import styles from "./social-networks.module.css";
 
-import { ImFacebook } from "react-icons/im";
-// import { ImLinkedin2 } from "react-icons/im";
-import { FaLinkedinIn } from "react-icons/fa";
-import { ImTwitter } from "react-icons/im";
-import { ImYoutube } from "react-icons/im";
-import { BsInstagram } from "react-icons/bs";
+// import { ImFacebook } from "react-icons/im";
+// import { FaLinkedinIn } from "react-icons/fa";
+// import { ImTwitter } from "react-icons/im";
+// import { ImYoutube } from "react-icons/im";
+// import { BsInstagram } from "react-icons/bs";
+
+import { ReactComponent as FacebookIcon } from "../../../assets/img/Facebook.svg";
+import { ReactComponent as LinkedInIcon } from "../../../assets/img/LinkedIn.svg";
+import { ReactComponent as TwitterIcon } from "../../../assets/img/Twitter.svg";
+import { ReactComponent as YoutubeIcon } from "../../../assets/img/Youtube.svg";
+import { ReactComponent as InstagramIcon } from "../../../assets/img/Instagram.svg";
 
 const SocialNetworks = () => {
   return (
     <ul className={styles.list}>
       <li className={styles.item}>
-        <ImFacebook className={styles.icon} size={16} />
+        <FacebookIcon className={styles.icon} size={16} />
       </li>
       <li className={styles.item}>
-        <FaLinkedinIn className={styles.icon} size={16} />
+        <LinkedInIcon className={styles.icon} size={16} />
       </li>
       <li className={styles.item}>
-        <ImTwitter className={styles.icon} size={16} />
+        <TwitterIcon className={styles.icon} size={16} />
       </li>
       <li className={styles.item}>
-        <ImYoutube className={styles.icon} size={16} />
+        <YoutubeIcon className={styles.icon} size={16} />
       </li>
       <li className={styles.item}>
-        <BsInstagram className={styles.icon} size={16} />
+        <InstagramIcon className={styles.icon} size={16} />
       </li>
     </ul>
   );

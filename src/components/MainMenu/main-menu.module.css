@@ -1,9 +1,6 @@
 .list {
   display: flex;
-}
-
-.item:not(:last-child) {
-  margin-right: 60px;
+  gap: 60px;
 }
 
 .link {

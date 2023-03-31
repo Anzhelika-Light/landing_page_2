@@ -1,3 +1,10 @@
-.section {
+.sectionFooter {
   background-color: #e7ecff;
+}
+
+.sectionHero {
+  background-image: url(../../assets/img/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
 }

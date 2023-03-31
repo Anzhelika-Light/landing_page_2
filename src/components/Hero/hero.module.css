@@ -27,11 +27,7 @@
   color: #505f98;
 }
 
-/* .imgWrapper {
-  position: relative;
-} */
-
-.img {
+/* .img {
   position: absolute;
   top: 0;
   right: 0;
@@ -41,10 +37,21 @@
   right: -32.45%;
   top: 1.08%;
   bottom: 75.97%;
+} */
+
+.btnWrapper {
+  display: flex;
+  align-items: flex-start;
 }
 
-.marg {
+.btnHero {
+  font-size: 16px;
+}
+
+.btnHeroFirst {
   margin-right: 30px;
+
+  font-size: 16px;
 }
 
 /* .bgImg {

@@ -12,6 +12,7 @@ import "./App.css";
 import AboutItemsData from "./data/about-items.json";
 import AdvantagesData from "./data/advantages-data.json";
 import PricingData from "./data/pricing.json";
+import HeroData from "./data/hero.json";
 
 function App() {
   return (
@@ -20,11 +21,12 @@ function App() {
         <Header />
       </Section>
 
-      <Section>
+      <Section className={styles.sectionHero}>
         <Hero
-          title="Introduce Your Product Quickly & Effectively"
-          text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
-        mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+          items={HeroData}
+          //   title="Introduce Your Product Quickly & Effectively"
+          //   text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+          // mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
         />
       </Section>
 
@@ -45,7 +47,7 @@ function App() {
         <PricingSection items={PricingData} />
       </Section>
 
-      <Section className={styles.section}>
+      <Section className={styles.sectionFooter}>
         <Footer />
       </Section>
     </div>

@@ -16,7 +16,7 @@ const PricingSection = () => {
       <p className={styles.price}>$40</p>
       <p className={styles.note1}>UI Design Kit</p>
       <p className={styles.note2}>See, One price. Simple.</p>
-      <Button>Purchase Now</Button>
+      <Button className={styles.btnPricing}>Purchase Now</Button>
       <img className={styles.img} src={PricingBg} alt="" />
     </div>
   );

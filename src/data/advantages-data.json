@@ -1,23 +1,23 @@
 [
   {
     "id": "1",
-    "img": "./assets/img/advantages1.jpg",
+    "img": "../../assets/img/advantages1.jpg",
     "title": "Light, Fast & Powerful",
     "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
-    "button": "false"
+    "button": false
   },
   {
     "id": "2",
-    "img": "#",
+    "img": "../../assets/img/advantages2.jpg",
     "title": "Light, Fast & Powerful",
     "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
-    "button": "false"
+    "button": false
   },
   {
     "id": "3",
-    "img": "#",
+    "img": "../../assets/img/advantages3.jpg",
     "title": "Light, Fast & Powerful",
     "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
-    "button": "true"
+    "button": true
   }
 ]

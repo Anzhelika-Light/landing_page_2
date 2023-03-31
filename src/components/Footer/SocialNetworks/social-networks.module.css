@@ -7,10 +7,10 @@
 }
 
 .icon {
-  color: #b0b8bc;
+  fill: #b0b8bc;
 }
 
 .icon:hover,
 .icon:focus {
-  color: #37447e;
+  fill: #37447e;
 }

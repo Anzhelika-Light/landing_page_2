@@ -11,7 +11,7 @@ const Header = () => {
     <div className="container">
       <MainMenu items={MenuItems} />
       <span className={styles.logo}>Landie</span>
-      <Button>Buy Now</Button>
+      <Button className={styles.btnHeader}>Buy Now</Button>
     </div>
   );
 };
