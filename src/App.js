@@ -9,6 +9,7 @@ import Section from "./components/Section/Section";
 import styles from "./components/Section/section.module.css";
 import "./App.css";
 
+import AboutMainData from "./data/about-main.json";
 import AboutItemsData from "./data/about-items.json";
 import AdvantagesData from "./data/advantages-data.json";
 import PricingData from "./data/pricing.json";
@@ -26,12 +27,7 @@ function App() {
       </Section>
 
       <Section className={styles.sectionAbout}>
-        <AboutSection
-          title="Light, Fast & Powerful"
-          text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
-        mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
-          items={AboutItemsData}
-        />
+        <AboutSection {...AboutMainData} items={AboutItemsData} />
       </Section>
 
       <Section className={styles.sectionAdvantages}>

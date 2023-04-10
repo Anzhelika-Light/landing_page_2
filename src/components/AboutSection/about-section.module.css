@@ -17,7 +17,7 @@
 }
 
 .sectionText {
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 
   line-height: 1.62;
 
@@ -34,6 +34,7 @@
 
 .list {
   display: flex;
+  margin-top: 80px;
 }
 
 .item:not(:last-child) {
